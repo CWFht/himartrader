@@ -1,0 +1,15 @@
+{
+  "name": "himart-deal-dashboard",
+  "version": "1.0.0",
+  "description": "Lotte Himart One Day Hot Deal and Unopened Deal Dashboard",
+  "type": "module",
+  "scripts": {
+    "collect": "node scripts/collect-himart.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
